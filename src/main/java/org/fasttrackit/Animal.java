@@ -13,7 +13,6 @@ public class Animal {
     private int health = 50;
 
 
-
     public String getName() {
         return name;
     }
@@ -54,6 +53,22 @@ public class Animal {
         this.gender = gender;
     }
 
+    public String getFavoriteFood() {
+        return favoriteFood;
+    }
+
+    public void setFavoriteFood(String favoriteFood) {
+        this.favoriteFood = favoriteFood;
+    }
+
+    public String getFavoriteActivity() {
+        return favoriteActivity;
+    }
+
+    public void setFavoriteActivity(String favoriteActivity) {
+        this.favoriteActivity = favoriteActivity;
+    }
+
     public int getHunger() {
         return hunger;
     }
@@ -77,23 +92,6 @@ public class Animal {
     public void setHealth(int health) {
         this.health = health;
     }
-
-    public String getFavoriteFood() {
-        return favoriteFood;
-    }
-
-    public void setFavoriteFood(String favoriteFood) {
-        this.favoriteFood = favoriteFood;
-    }
-
-    public String getFavoriteActivity() {
-        return favoriteActivity;
-    }
-
-    public void setFavoriteActivity(String favoriteActivity) {
-        this.favoriteActivity = favoriteActivity;
-    }
-
 
     @Override
     public String toString() {
