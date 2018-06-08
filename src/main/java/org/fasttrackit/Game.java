@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Game {
 
     public void start() {
+
         // Creating "rescuer" obj.
         System.out.println("Enter your name: ");
         Scanner resNameScanner = new Scanner(System.in);
@@ -19,7 +20,7 @@ public class Game {
         Scanner dogNameScanner = new Scanner(System.in);
         String dogName = dogNameScanner.nextLine();
 
-        System.out.println("Enter the age for your dog: ");
+        System.out.println("Enter the age of your dog: ");
         Scanner ageScanner = new Scanner(System.in);
         String age = ageScanner.nextLine();
 
@@ -27,6 +28,10 @@ public class Game {
             dog.setName(dogName);
             dog.setColor("white");
             dog.setAge(age);
+            dog.setWeight("19Kg");
+            dog.setGender("Male");
+
+
 
         System.out.println(dog);
         System.out.println(rescuer);

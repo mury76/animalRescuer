@@ -1,19 +1,16 @@
 package org.fasttrackit;
 
 public class Animal {
-    String name;
-    String color;
-    String age;
-    String weight;
-    String gender;
-    String favoriteFood;
-    String favoriteActivity;
-    int hunger = 100;
-    int mood = 50;
-    int health = 50;
-
-
-
+    private String name;
+    private String color;
+    private String age;
+    private String weight;
+    private String gender;
+    private String favoriteFood;
+    private String favoriteActivity;
+    private int hunger = 100;
+    private int mood = 50;
+    private int health = 50;
 
 
 
@@ -95,5 +92,22 @@ public class Animal {
 
     public void setFavoriteActivity(String favoriteActivity) {
         this.favoriteActivity = favoriteActivity;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                ", age='" + age + '\'' +
+                ", weight='" + weight + '\'' +
+                ", gender='" + gender + '\'' +
+                ", favoriteFood='" + favoriteFood + '\'' +
+                ", favoriteActivity='" + favoriteActivity + '\'' +
+                ", hunger=" + hunger +
+                ", mood=" + mood +
+                ", health=" + health +
+                '}';
     }
 }

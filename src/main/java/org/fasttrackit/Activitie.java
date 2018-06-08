@@ -1,4 +1,4 @@
 package org.fasttrackit;
 
-public class Activities {
+public class Activitie {
 }
